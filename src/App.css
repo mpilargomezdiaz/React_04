@@ -1,0 +1,88 @@
+body {
+  background-image: url(../public/images/a-small-shopping-cart-with-a-cellphone-inside-it.jpg);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header h1{
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'fantasy'; 
+  color: rgba(255, 255, 255, 0.842);
+  text-shadow:
+  1px 1px 2px rgb(255, 94, 147),
+  0 0 1em rgb(255, 155, 188),
+  0 0 0.2em rgb(248, 120, 162);  
+  font-size:55px; 
+}
+
+nav{
+  text-align: left;
+  margin: left;
+  margin-left: 30px;
+  width: 200px; 
+  height: 100px;
+  padding: 50px;
+  font-family: 'fantasy';
+  background-color: rgba(150, 22, 224, 0.103);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  border-color: blue;
+}
+
+.Home, .About, .Not, .Product {
+  /* position: absolute;
+  top:300px; */
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'fantasy'; 
+  color: rgb(118, 0, 122); 
+  font-size:25px;
+}
+
+.Home, .About, .Not {
+  background-color: #ffdcf7a1;
+  border-radius: 300px;
+  border: 1px solid #ffffff;
+}
+
+.Product h1 {
+  margin-bottom: 100px;
+}
+
+.product-list img{
+  max-width: 300px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+button {
+  margin-bottom: 50px;
+}
+
+.Footer {
+  position: relative;
+  top: 330px; 
+  left: 20px;
+  color: rgb(118, 0, 122); 
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  border: 1px solid #0b2f9241;
+  border-radius: 8px;
+  background-color: #f9f9f938;
+  font-family: 'fantasy'; 
+  color: rgb(112, 69, 112); 
+}
